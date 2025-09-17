@@ -1,0 +1,111 @@
+/* General Page Styling */
+body {
+  background-color: #f9fafb; /* soft gray */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Chat Box */
+.chat-box {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.chat-box .message {
+  margin: 8px 0;
+}
+
+.chat-box .message.user {
+  background: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 12px;
+  text-align: right;
+}
+
+.chat-box .message.bot {
+  background: #f1f1f1;
+  padding: 8px 12px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+/* Input Field */
+.chat-input {
+  display: flex;
+  margin-top: 15px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+}
+
+.chat-input button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.chat-input button:hover {
+  background: #0056b3;
+}
+
+/* Recommended Products */
+.recommendations {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.recommendations h2 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+/* Visual Search */
+.visual-search {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.visual-search img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-top: 10px;
+}
